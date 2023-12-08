@@ -8,15 +8,17 @@
 </head>
 <body>
     <div class="image-container">
-        <button id="previousBtn">Previous</button>
+        <button id="previousBtn" onclick="changeSlide(-1)">Previous</button>
         <div class="slider">
             <img src="images/Sub1.webp" alt="Sub print t-shirts">
             <img src="images/Sub21.webp" alt="Sub print t-shirts2">
             <img src="images/Sub29.webp" alt="Sub print t-shirts3">
 
         </div>
-        <button id="nextBtn">Next</button>
+        <button id="nextBtn" onclick="changeSlide(1)">Next</button>
     </div>
+
+    <script src="js/app.js"></script>
     
 </body>
 </html>
